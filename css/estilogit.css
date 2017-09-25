@@ -1,0 +1,70 @@
+body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:inherit; /*  herança do principal da div*/
+}
+
+a:hover{
+    color: orangered;
+}
+.header{
+   background-color: lightgray;
+   text-align: center; 
+   padding:30px 0;
+}
+
+.imagem-perfil{
+    width:300px;
+    border-radius:none;
+
+}
+.navegacao{
+     margin-top:50px;
+}
+   
+
+.navegacao-item-list{
+    display: inline;
+    /*margin: 0 2px 0 2px;/*valores no sentindo horario començando do topo*/
+   margin:0 8px;*//*primeira valor (em cima e embaixo)*/
+}
+
+ul{
+    padding:0;
+}
+
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section{
+    display: flex;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+li{
+    list-style: none;/* tirar as bolinhas da lista(li)*/
+    /*list-style: none; tirar as bolinhas da lista(li)*/
+}
+
+section h3{
+    /*width:35%;*/
+    min-width: 300px;
+    margin-right:60px;
+}
+
+footer{
+background-color: black;
+text-align: center; 
+padding:5px 0;
+color:white;
+}
